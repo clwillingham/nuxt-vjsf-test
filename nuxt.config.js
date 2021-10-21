@@ -28,7 +28,7 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
-    {src: '~/plugins/vjsf'}
+    {src: '~/plugins/vjsf', mode: 'client'}
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -74,5 +74,6 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+    transpile: ['vuetify/lib', /@koumoul/, 'markdown-it/lib', 'vuedraggable/src'], // necessary for "à la carte" import of vuetify components
   }
 }

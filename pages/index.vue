@@ -68,9 +68,8 @@ export default {
   },
   watch: {
     schemaYaml(val) {
-      console.log(val);
       try {
-        this.schema = YAML.parse(this.schemaYaml);
+        this.schema = YAML.parse(val);
       } catch (e) {
       }
     }
