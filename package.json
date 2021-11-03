@@ -12,7 +12,7 @@
   "dependencies": {
     "@koumoul/vjsf": "^2.6.0",
     "@nuxtjs/pwa": "^3.3.5",
-    "core-js": "^3.15.1",
+    "core-js": "^3.19.1",
     "markdown-it": "^8.4.2",
     "nuxt": "^2.15.7",
     "prismjs": "^1.25.0",
