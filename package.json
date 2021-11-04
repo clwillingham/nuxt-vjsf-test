@@ -30,6 +30,6 @@
     "@wdio/spec-reporter": "^7.7.3",
     "@wdio/sync": "^7.7.4",
     "eslint-plugin-wdio": "^7.4.2",
-    "webdriverio": "^7.7.4"
+    "webdriverio": "^7.16.4"
   }
 }
